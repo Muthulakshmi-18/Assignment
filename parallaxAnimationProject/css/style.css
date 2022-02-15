@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+ padding:0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ position: relative;
+ overflow: auto;
+ background-color: #1C1C1C;
+ overflow-x: hidden;
+ height: 100vh;
+}
+.container{
+ z-index: 1;
+ height: 100%;
+ width: 100%;
+ overflow: visible;
+ top: 0px;
+ left: 0px;
+ position: sticky;
+}
+.navbarContent{
+ display: flex;
+ justify-content: stretch;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 0 75px;
+ margin-top: 55px;
+ box-sizing: border-box;
+ background-color: transparent;
+ z-index: 20;
+}
+.navbarLogo{
+ flex-grow: 1;
+}
+.parallaxImg{
+ height: 3em;
+} 
+.right{
+ text-align: right;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.navbarUl{
+ list-style-type: none;
+}
+.navbarUl > li{
+ display: inline-block;
+ margin-left: 40px;
+}
+.sublink{
+ position: relative;
+ font-size: 1em;
+ letter-spacing: 0.07em;
+ font-family: "Proxima-nova",sans-serif;
+ text-transform: uppercase;
+ text-decoration: none;
+ font-weight: 1000;
+ color: #fff;
+ cursor: pointer;
+}
+.sublink::before {
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ background-color: #fff;
+ transform: scaleX(0);
+ transition: all 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+.sublink:hover::before {
+ transform: scaleX(1);
+}
+.button{
+ display: inline-block;
+ font-size: 1em;
+ letter-spacing: 0.07em;
+ font-family: "Proxima-nova",sans-serif;
+ text-transform: uppercase;
+ font-weight: 1000;
+ padding: 15px 40px;
+ box-sizing: border-box;
+ text-decoration: none;
+ color: #1C1C1C;
+ cursor: pointer;
+ border-radius: 60px;
+ background-color: #77FF65;
+ transition: transform 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+.button:hover {
+ transform: scale(1.08);
+}
+.sectionTag01{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ position: relative;
+}
+.backImgParallax{
+ position: absolute;
+ left: 0;
+ right: 0;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ z-index: -1;
+}
+.backImgParallax > img{
+ height: 70vh;
+ border-radius: 40px;
+ box-shadow: 5px 5px 10px rgb(0 0 0 / 40%);
+ transform: rotate(15deg);
+}
+.sectionContent{
+ width: 100%;
+ text-align: center;
+}
+.sectionWapper{
+ width: 60%;
+ margin: 0 auto;
+ text-align: center;
+}
+.sectionTitle{
+ font-size: 4em;
+ letter-spacing: 0.04em;
+ color: #fff;
+ font-family: "Proxima-nova",sans-serif;
+ text-transform: uppercase;
+ font-weight: 910;
+ margin-bottom: 6vh;
+ line-height: 1.3;
+}
+.sectionTitle > span{
+ color: #84f397;
+}
+.sectionButton:hover {
+ transform: scale(1.08);
+}
+.sectionTag02{
+ position: relative;
+ width: 100vw;
+ padding: 0 180px;
+ margin-top: 100px;
+ box-sizing: border-box;
+}
+.secondBackImgParallax{
+ position: absolute;
+ text-align: center;
+ left: -315px;
+ right: -280px;
+ top: -70px;
+ z-index: -1;
+}
+.stack{
+ margin-right: 25px;
+ display: inline-block;
+}
+.slowParallax01 > img{
+ display: block;
+ height: 40vh;
+ width: 35vw;
+ object-fit: cover;
+ opacity: 0.3;
+ border-radius: 30px;
+ margin-bottom: 65px;
+}
+.slowParallax02{
+ position: relative;
+ top: 100px;
+ opacity: 0.4;
+}
+.slowParallax02 > img{
+ display: block;
+ height: 40vh;
+ width: 35vw;
+ object-fit: cover;
+ opacity: 0.3;
+ border-radius: 30px;
+ margin-bottom: 65px;
+}
+.slowParallax03 > img{
+ display: block;
+ height: 40vh;
+ width: 35vw;
+ object-fit: cover;
+ opacity: 0.3;
+ border-radius: 30px;
+ margin-bottom: 65px;
+}
+.alignerDiv{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.right{
+ align-self: flex-end;
+ text-align: right;
+ display: block;
+ margin-bottom: 110px;
+}
+h3{
+ font-weight: 200;
+ font-size: 3.5em;
+}
+h3{
+ letter-spacing: 0.03em;
+ color: #fff;
+ font-family: "Proxima-nova",sans-serif;
+ text-transform: uppercase;
+}
+h3 > span {
+ color: #77FF65;
+}
+.left{
+ display: block;
+ margin-bottom: 110px;
+}
+.leftSubsection{
+ display: block;
+ margin-bottom: 110px;
+}
+h2{
+ letter-spacing: 0.03em;
+ color: #fff;
+ font-family: "Proxima-nova",sans-serif;
+ text-transform: uppercase;
+}
+h2 > span{
+ color: #77FF65;
+}
+.leftSubsection > a{
+ margin-top: 40px;
+}
+.footer{
+ display: block;
+ margin-bottom: 110px;
+}
+.subtext{
+ position: relative;
+ font-size: 1em;
+ letter-spacing: 0.07em;
+ font-family: "Proxima-nova",sans-serif;
+ text-transform: uppercase;
+ text-decoration: none;
+ font-weight: 800;
+ color: #fff;
+}
+span{
+ color: #77FF65;
+}
+.heart{
+ width: 50px;
+ height: 50px;
+}
