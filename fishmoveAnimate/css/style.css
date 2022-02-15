@@ -1,0 +1,223 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.container{
+ width:100%;
+ height:100vh;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkVU3S_T2DhlcHvdGEKOXmPirv01QwIWOPE95VABd76TlPjNXrPidERe4bBr_Bg5FxKI&usqp=CAU");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.wapperContent{
+ width:500px;
+ height: 500px;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkVU3S_T2DhlcHvdGEKOXmPirv01QwIWOPE95VABd76TlPjNXrPidERe4bBr_Bg5FxKI&usqp=CAU");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+.fishTank{
+ width:300px;
+ height: 300px;
+ border: 6px solid;
+ border-radius: 50%;
+ margin: 80px auto;
+ padding-top: 20px;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkVU3S_T2DhlcHvdGEKOXmPirv01QwIWOPE95VABd76TlPjNXrPidERe4bBr_Bg5FxKI&usqp=CAU");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+.submarine{
+ margin-left: -15px;
+ margin-top: 27px;
+ position: relative;
+ animation-timing-function:linear;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+ animation-name: moveing;
+}
+.head01{
+ width: 30px;
+ height: 9px;
+ margin-left: 170px;
+ margin-top: 50px;
+ border-radius: 0px 5px 5px 0px;
+ background-color: #D93A54;
+}
+.head02{
+ width: 10px;
+ height: 30px;
+ margin-left: 170px;
+ background-color: #D93A54;
+}
+.headbody01{
+ width: 70px;
+ height: 20px;
+ border-radius: 8px 8px 0px 0px;
+ margin-left: 135px;
+ padding-top: 5px;
+ background-color: #D93A54;
+ /* background: linear-gradient(#D93A54, #bc243d); */
+}
+.headlight{
+ width:45px;
+ height: 10px;
+ background-color:#D93A54;
+ background: linear-gradient(#b3233a, #a21f35);
+ border-radius: 10px;
+ margin: 0px auto;
+ display: flex;
+ padding: 2px 0px 0px 0px;
+}
+.ligt01{
+ width:5px;
+ height:5px;
+ background-color: #fff;
+ border-radius: 50%;
+ margin: 1px 4px 2px 5px;
+ /* position: absolute; */
+ animation: leds-off 5s linear infinite;
+}
+.headBody02{
+ width: 135px;
+ height: 65px;
+ margin-left: 100px;
+ padding-top:22px;
+ border-radius: 30px;
+ background: linear-gradient(#D93A54, #bc243d);
+}
+.fisheyes{
+ width: 25px;
+ height: 25px;
+ margin-left: 90px;
+ background: linear-gradient(#1e4554, #183642);
+ border-radius: 50%;
+ border: 3px solid #D93A54;
+}
+.fisheyes:after {
+ content: "";
+ position: absolute;
+ margin-top: 0px;
+ margin-left: 1px;
+ width: 20px;
+ height: 20px;
+ border-radius: 50%;
+ background-color: transparent;
+ opacity: 0.8;
+ border-top: 3px solid white;
+ transform: rotate(-45deg);
+}
+.fishmoveIcon{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin-left: 40px;
+ margin-top: -22px;
+ background-color: #bc243d;
+ border: 5px solid #D93A54;
+ position:absolute;
+ animation: rotate 1s linear infinite;
+}
+.fishline01{
+ width: 4px;
+ height: 20px;
+ margin-left: 8px;
+ background-color: #fff;
+}
+.fishline02{
+ width: 5px;
+ height: 20px;
+ transform: rotate(90deg);
+ margin-top: -20px;
+ margin-left: 8px;
+ background-color: #fff;
+}
+.fishnose{
+ width: 16px;
+ border-radius: 0px 5px 5px 0px;
+ height: 16px;
+ margin-left: 118px;
+ transform: rotate(35deg);
+ background: linear-gradient(#D93A54, #bc243d); 
+}
+.fishtoll{
+ width: 25px;
+ height: 60px;
+ padding-top: 0px;
+ margin-top: -58px;
+ margin-left: -22px;
+ background-color: #D93A54;
+}
+.fishtoll:after {
+ content: "";
+ position: absolute;
+ margin-left: 4px;
+ width: 17px;
+ height: 60px;
+ border-radius: 3px;
+ background-color: transparent;
+ opacity: 0.8;
+ display: flex;
+ flex-direction: column;
+ background: linear-gradient(to bottom, #D93A54, #D93A54 50%, #e57a8c 50%, #e57a8c);
+ background-size: 100% 20px;
+ animation: helix-movement 110ms linear infinite;
+}
+/* .toll01{
+ width: 25px;
+ height: 6px;
+ margin-top: 5px;
+ position:absolute;
+ animation:helix-movement 110ms linear infinite;
+ background-color: rgb(160, 153, 153);
+} */
+
+@keyframes rotate {
+ 0% {
+  transform:rotate(0deg);
+ }
+ 100% {
+  transform:rotate(-360deg);
+ }
+}
+
+/* @keyframes movement {
+ 0% {
+  transform:rotate(0deg);
+ }
+ 100% {
+  transform: rotatex(90deg);
+ }
+} */
+
+@keyframes moveing {
+ 0% {
+  transform:rotate(3deg);
+ }
+ 50% {
+  transform:rotate(-3deg);
+ }
+ 100% {
+  transform:rotate(3deg);
+ }
+}
+
+@keyframes helix-movement {
+ 100% {
+  background: linear-gradient(to bottom,lighten(#D93A54, 15%) 50%,lighten(#D93A54, 15%),#D93A54,#D93A54 50%);
+  background-size: 100% 20px;
+ }
+};
+
+@keyframes leds-off { 
+ 0%{
+  opacity:1;
+ }
+ 100% { 
+  opacity:0.3;
+ } 
+}
