@@ -1,0 +1,1771 @@
+*{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+ font-family: sans-serif;
+ text-shadow: none;
+}
+.container{
+ width: 100%;
+ height: 100vh;
+ overflow: hidden;
+ font-family: Lato, sans-serif;
+ background-color: #1A2B3C;
+}
+.cliqWapper{
+ height: 50px;
+ box-shadow: 297px 0px 5px 1px #293840;
+ width: 100%;
+ z-index: 15;
+}
+.cliqNavBar{
+ background-color: #1a2b3c;
+ height: 50px;
+ display: flex;
+ align-items: center;
+}
+.cliqLogo{
+ cursor: pointer;
+ background-color: #1a2b3c;
+ position: relative;
+ height: 100%;
+ width: 240px;
+ padding-right: 50px;
+}
+.cliqLogo > img{
+ max-height: 100%;
+ max-width: 100%;
+}
+.cliqSoundLogo{
+ color: #fff;
+ font-size: 16px;
+ position: absolute;
+ cursor: pointer;
+ width: 29px;
+ height: 28px;
+ line-height: 27px;
+ border-color: #223140;
+ background-color: #1d2e3e;
+ border-radius: 3px;
+ text-align: center;
+ right: 12px;
+ top: 12px;
+ padding-left: 2px;
+}
+.cliqSoundLogo > i{
+ position: absolute;
+ right: 2px;
+ margin: 5px;
+ color:#8899A6;
+ border-color: #223140;
+ background-color: #1d2e3e;
+}
+.cliqSearchBar{
+ height: 50px;
+ margin-top: 10px;
+ flex-grow: 1;
+}
+.cliqsearchBarTagChildele{
+ margin-left: 7px;
+ max-width: 64%;
+}
+.cliqSpotlightSearchBar{
+ height: 40px;
+ border-radius: 5px;
+ position: relative;
+ width: 100%;
+ display: flex;
+}
+.cliqInputContainer{
+ width: 100%;
+ height: 100%;
+ background-color: #263849;
+ color: #e1e3e4;
+ border-radius: 5px;
+ display: flex;
+}
+.filterConent{
+ width: 160px;
+ height: 100%;
+ border-right: 1px solid #2B3D4F;
+ cursor: pointer;
+ font-size: 15px;
+}
+.drpdwnSearchIcon{
+ width: 90%;
+ padding: 0 10px;
+ color: #e1e3e4;
+ cursor: pointer;
+ border-radius: 5px;
+ line-height: 1;
+ display: flex;
+ align-items: center;
+ height: 40px;
+ border-color: transparent;
+ box-shadow: none
+}
+#search{
+ font-size: 14px;
+ color: #8899A6;
+ margin-right: 8px;
+}
+.cliqDrpdwnLabel{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ font-size: 14px;
+ color: #afb3b7;
+ flex-grow: 1;
+ word-wrap: normal;
+}
+.drpdwnDownArrowIcon{
+ font-size: 12px;
+ color: #778491;
+ margin-top: 3px;
+}
+.cliqInputIcon{
+ padding: 0 18px 0 20px;
+ height: 100%;
+}
+.zcssauto{
+ font-size: 18px;
+ height: 100%;
+ border-radius: 5px;
+ white-space: pre-wrap;
+ overflow: hidden;
+ padding: 0 0 0 2px;
+}
+.search-field{
+ padding-bottom: 3px;
+ font-size: 15px;
+ width: 100%;
+ background-color: transparent;
+ color: #e1e3e4;
+ height: 100%;
+ border-radius: 5px;
+ white-space: pre-wrap;
+ padding: 0 0 0 2px;
+}
+.search-field::placeholder{
+ color: #778491;
+}
+.createchatcontainer{
+ position: relative;
+ width: 40px;
+ height: 40px;
+ border-radius: 5px;
+ background-color: #263849;
+ color: #8899A6;
+ line-height: 40px;
+ margin-left: 7px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.createchatcontainer:hover{
+ background-color: #2B3D4F;
+}
+.cliqMenuBar{
+ display: inline-flex;
+ align-items: center;
+ height: 100%;
+ position: relative;
+ padding: 5px 0;
+ margin: 0 14px 0 10px;
+}
+.ztbButtonType01{
+ position: relative;
+ width: 34px;
+ height: 15px;
+ color: #8899A6;
+ font-size: 15px;
+ border-radius: 50%;
+ background-color: transparent;
+ margin: 0 3px;
+ text-align: center;
+ cursor: pointer;
+}
+.ztbButtonType01:hover{
+ background-color: #131C26;
+ color: #6CA534; 
+}
+.ztbStartIcons{
+ z-index: 2;
+ height: 18px;
+ font-size: 16px;
+ transition: color .3s;
+}
+#afterElement{
+ border-radius: 5px;
+ margin-left: 30px;
+ margin-bottom: 1px;
+}
+.ztbButtonType05{
+ position: relative;
+ width: 34px;
+ height: 34px;
+ color: #8899A6;
+ font-size: 15px;
+ background-color: transparent;
+ margin: 0 3px;
+ cursor: pointer;
+}
+.ztbButtonType05:after {
+ content: "";
+ height: 14px;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ left: -21px;
+ display: block;
+ right: auto;
+ position: absolute;
+ border-left: 1px solid #2B3D4F;
+ pointer-events: none;
+}
+.profile{
+ width: 100%;
+ height: 100%;
+ position: relative;
+}
+.myProfile{
+ width: 100%;
+ height: 100%;
+ border-radius: 5px;
+ filter: grayscale(50%);
+ object-fit: cover;
+ opacity: 0.9;
+ transition: all .1s;
+ border: none;
+}
+.myProfile:hover{
+ filter: grayscale(0%);
+ opacity: 1;
+}
+.zcstatus{
+ width: 8px;
+ height: 8px;
+ right: -6px;
+ bottom: 0;
+ left: auto;
+ top: 0;
+ margin: auto;
+ background-color: #14b474;
+ border: 2px solid #15202B;
+ position: absolute;
+ border-radius: 50%;
+}
+.zohoAppIcon{
+ cursor: pointer;
+ background-color: transparent;
+ height: 17px;
+ width: 18px;
+ margin: 0 14px 0 auto;
+}
+.cliqLauncher{
+ width: 22px;
+ height: 18px;
+ position: relative;
+}
+.cliqMenuIcon > span{
+ background-color: #56606A;
+ width: 4px;
+ height: 4px;
+ margin: 0 1px 3px 2px;
+ float: left;
+ display: block;
+ transition: all .2s;
+}
+.mainSectionContent{
+ background-color: #15202B;
+ height: 100vh;
+}
+.cliqContent{
+ display: flex;
+ width: 100%;
+ height: 100%;
+}
+.sideNavBarSectionTag{
+ background: #082835;
+ position: relative;
+ max-width: 294px;
+ width: 294px;
+ height: 100%;
+}
+.cliqfirstSectionTag{
+ max-width: 294px;
+ width: 294px;
+ height: 100%;
+ overflow: hidden;
+}
+.cliqCheckInTag{
+ border-left: 2px solid #6CA534;
+ justify-content: space-between;
+ background-color:rgba(44, 73, 102, 0.4);
+ color: #fff;
+ display: flex;
+ height: 55px;
+ align-items: center;
+ padding: 0px 14px;
+}
+.remoteTag{
+ font-weight: bold;
+ font-size: 16px;
+}
+.cliqRemoteCheckinStatus{
+ display: flex;
+ align-items: center;
+}
+.cliqCheckBoxTag{
+ color: rgba(255, 255, 255, 0.5);
+ margin-right: 8px;
+ font-size: 11px;
+}
+.checkInBox{
+ width: 32px;
+ height: 18px;
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ line-height: normal;
+}
+.checkInButton{
+ background-color: transparent;
+ color: #fff;
+}
+.switch {
+ position: relative;
+ width: 32px;
+ height: 18px;
+}
+.slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #3A546C;
+ transition: .4s;
+}
+.switch input { 
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+.slider:before {
+ position: absolute;
+ content: "";
+ height: 16px;
+ width: 16px;
+ bottom: 1px;
+ background-color: #1A2B3C;
+ transition: .4s;
+}
+input:checked + .slider {
+ background-color: #1b88b8;
+}
+input:focus + .slider {
+ box-shadow: 0 0 1px #1b88b8;
+}
+input:checked + .slider:before {
+ transform: translateX(13px);
+}
+.slider.round {
+ border-radius: 34px;
+}
+.slider.round:before {
+ border-radius: 50%;
+}
+/*************** leftWapperContent ***************/
+.leftWapperContent{
+ margin-top: 2px;
+ display: flex;
+ width: 294px;
+ background: #142230;
+ overflow: hidden;
+ height: 100%;
+}
+.cliqModulesLeftNavbar{
+ width: 64px;
+ background: #142230;
+ height: 100%;
+ overflow: hidden;
+}
+.moduleNavBar{
+ height: 100%;
+}
+.cliqModuleIcons{
+ position: relative;
+ margin-bottom: 20px;
+}
+.cliqChatIcon{
+ background-color: #1A2B3C;
+ position: relative;
+ cursor: pointer;
+ border-left: 2px solid #6CA534;
+ height: 54px;
+ width: 64px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.chatImg > i{
+ color: #6CA534;
+ width: 14px;
+ height: 14px;
+}
+.nameEllipsChat{
+ margin-top: 5px;
+ font-size: 8.5px;
+ text-transform: uppercase;
+ color: #6CA534;
+ text-align: center;
+ width: 100%;
+ padding: 0px 4px;
+}
+.cliqContactIcon{
+ position: relative;
+ cursor: pointer;
+ border-left: 2px solid #142230;
+ height: 54px;
+ margin: 2px 0px;
+ width: 64px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.cliqContactIcon:hover{
+ background-color: #1A2B3C;
+}
+.contactImg > i{
+ color: #4E9CC1;
+ width: 14px;
+ height: 14px;
+}
+.nameEllipsContact{
+ margin-top: 5px;
+ font-size: 8.5px;
+ text-transform: uppercase;
+ color: #4E9CC1;
+ text-align: center;
+ width: 100%;
+ padding: 0px 4px;
+}
+
+/*************** cliqModuleContent ************/
+.cliqModuleContent{
+ overflow: hidden;
+ height: 100%;
+ width: 230px;
+ color: #FFF;
+ background: #1A2B3C;
+}
+.cliqAppMychats{
+ height: 100%;
+ flex-grow: 1;
+}
+.cliqAllChatContent{
+ overflow-x: hidden;
+ overflow-y: auto;
+ padding-bottom: 5px;
+ flex-grow: 1;
+ cursor: pointer;
+}
+.binnerChat{
+ opacity: 0.85;
+ font-weight: bold;
+ padding: 0px 14px;
+ color: #fff;
+ margin: 14px 0px 0px;
+ height: 30px;
+ display: flex;
+ align-items: center;
+}
+.binNameflex{
+ display: flex;
+ align-items: center;
+ flex-grow: 1;
+ font-size: 1em;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ word-wrap: normal;
+}
+.binEllipsText{
+ padding: 5px 0 6px;
+ font-size: 17px;
+ font-weight: bold;
+}
+.mypinsBtn > i{
+ margin-left: 10px;
+ opacity: 0.85;
+}
+.cliqBinChatMembers{
+ position: relative;
+ z-index: 0;
+}
+.pinnedChatsList{
+ margin-top: 5px;
+}
+.chatListWrapper{
+ color: #FFF;
+ padding: 0px 11px 0px 16px;
+ margin-bottom: 1px;
+ font-size: 14px;
+ position: relative;
+ height: 28px;
+ line-height: normal;
+ border-left: 2px solid transparent;
+ cursor: pointer;
+ z-index: 1;
+ display: flex;
+ align-items: center;
+}
+.chatListWrapper:hover{
+ background: rgba(44, 73, 102, 0.4);
+ opacity: 1;
+}
+.chatMemberStatus{
+ margin-right: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 11px;
+ width: 14px;
+ text-align: center;
+ opacity: 0.5;
+}
+.cliqAvaliable{
+ background-color: #14b474;
+ display: inline-block;
+ border-radius: 10px;
+ vertical-align: middle;
+ height: 8px;
+ width: 8px;
+}
+.cliqChatMemberName{
+ word-wrap: normal;
+ flex-grow: 1;
+ font-size: 1em;
+}
+.cliqHoverIcon > i{
+ font-size: 10px;
+ color: #8899A6;
+ opacity: 0;
+ cursor: pointer;
+ padding: 0px 11px 0px 16px;
+}
+#cliqHover:hover{
+ opacity: 1;
+}
+.ellipsName{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ font-family: Lato, sans-serif;
+}
+
+/************* secondSectionTagContent *************/
+.secondSectionTagContent{
+ flex-grow: 1;
+ margin-left: 0px;
+ width: calc(100% - 294px);
+ float: unset;
+ height: 100%;
+ overflow: auto;
+}
+.zconechatDiv{
+ z-index: 12;
+ position: relative;
+ margin-top: 0;
+ height: 100%;
+}
+.cliqRemoteMainArea{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+}
+.zohoCliqContentsApp{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
+ box-shadow: inset 4px 1px 4px rgb(0 0 0 / 8%);
+ border-left: 1px solid #223140;
+ position: relative;
+}
+.rwHeaderContent{
+ justify-content: space-between;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ min-height: 60px;
+ padding: 0px 40px;
+ background-color: #15202B;
+}
+.rwHeaderDom{
+ display: flex;
+ align-items: center;
+}
+.fontLiveVideoTag{
+ margin-right: 16px;
+ font-weight: bold;
+ font-size: 16px;
+ color:#fff;
+ font-family: Lato, sans-serif;
+}
+.outgoingFeedWrapper{
+ position: relative;
+ width: 90px;
+ height: 60px;
+}
+.liveinfo{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background-color: #263849;
+ color: #8899A6;
+}
+.rwHeaderStatus{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ word-wrap: normal;
+ display: flex;
+ align-items: center;
+}
+.fontLiveStatusTag{
+ font-weight: bold;
+ font-size: 15px;
+ color:#fff;
+ font-family: Lato, sans-serif;
+}
+.cliqTransientStatuses{
+ padding-right: 5px;
+ padding-bottom: 5px;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ padding-top: 5px;
+ flex-grow: 1;
+ display: flex;
+ align-items: center;
+}
+.cliqAvailablebtnActive{
+ box-shadow: 0 0 0 1px #27bb6b;
+ background-color: #263849;
+ color: #fff;
+ opacity: 1;
+ border:2px solid #27BB6B;
+ line-height: 1;
+ border-radius: 44px;
+ position: relative;
+ margin-left: 16px;
+ height: 36px;
+ padding: 0px 14px;
+ font-size: 13px;
+ cursor: pointer;
+ outline: none;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ vertical-align: middle;
+}
+.ellipsFlexC{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: flex;
+ align-items: center;
+}
+.laptopworkLogo{
+ width: 24px;
+ height: 24px;
+ background:url("https://static.zohocdn.com/chat/source/officechat/images/default/remote_status/laptop.svg"); 
+}
+.cliqAvailablebtn{
+ line-height: 1;
+ border-radius: 44px;
+ position: relative;
+ background: #131C26;
+ border: 2px solid #38485A;
+ color: #afb3b7;
+ height: 36px;
+ padding: 0px 14px;
+ font-size: 13px;
+ opacity: 0.7;
+ cursor: pointer;
+ outline: none;
+ margin-left: 16px;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ vertical-align: middle;
+}
+.ellipsFlexBuys{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ padding-bottom: 5px;
+}
+.expiryTimeLogo{
+ width: 24px;
+ height: 24px;
+ margin-top: 2px;
+ background: url("https://static.zohocdn.com/chat/source/officechat/images/default/remote_status/focussed.svg");
+}
+.cliqAvailablebtn01{
+ min-width: 90px;
+ line-height: 1;
+ border-radius: 44px;
+ position: relative;
+ background: #131C26;
+ border: 2px solid #38485A;
+ color: #afb3b7;
+ margin-left: 16px;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ height: 36px;
+ padding: 0px 14px;
+ font-size: 13px;
+ opacity: 0.7;
+ cursor: pointer;
+ outline: none;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ vertical-align: middle;
+}
+.ellipsFlexBreak{
+ display: flex;
+ align-items: center;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+.BreakTimeLogo{
+ margin-right: 6px;
+ width: 24px;
+ height: 24px;
+ margin-top: 2px;
+ background: url("https://static.zohocdn.com/chat/source/officechat/images/default/remote_status/meal.svg");
+ background-repeat: no-repeat;
+}
+.teaBreakTimeLogo{
+ margin-right: 6px;
+ width: 24px;
+ height: 24px;
+ margin-top: 2px;
+ background: url("https://static.zohocdn.com/chat/source/officechat/images/default/remote_status/coffee.svg");
+ background-repeat: no-repeat;
+}
+.awayTimeLogo{
+ margin-right: 6px;
+ width: 24px;
+ height: 24px;
+ margin-top: 2px;
+ background: url("https://static.zohocdn.com/chat/source/officechat/images/default/remote_status/dnd.svg");
+ background-repeat: no-repeat;
+}
+.cliqAvailablebtn02{
+ line-height: 1;
+ border-radius: 44px;
+ position: relative;
+ background:#131C26;
+ border: 2px solid #38485A;
+ color: #afb3b7;
+ height: 36px;
+ padding: 0px 14px;
+ font-size: 13px;
+ opacity: 0.7;
+ margin-left: 16px;
+ cursor: pointer;
+ outline: none;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ vertical-align: middle;
+ padding-right: 0px;
+}
+.cliqAvailablebtn03{
+ line-height: 1;
+ border-radius: 44px;
+ position: relative;
+ background:#131C26;
+ border: 2px solid #38485A;
+ color: #afb3b7;
+ height: 36px;
+ padding: 0px 14px;
+ font-size: 13px;
+ opacity: 0.7;
+ margin-left: 16px;
+ cursor: pointer;
+ outline: none;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ vertical-align: middle;
+ padding-right: 0px;
+}
+.breakTimeOptns{
+ height: 100%;
+ margin-left: 8px;
+ display: flex;
+ align-items: center;
+}
+#downArrowCliq{
+ font-size: 1em;
+ padding: 3px 10px 0 10px;
+ height: 60%;
+ border-left: 1px solid #475461;
+ color: #8899A6;
+}
+.cliqCheckInButton{
+ min-width: 135px;
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 76px;
+}
+.flexCButton{
+ display: flex;
+ align-items: center;
+ height: 30px;
+ font-size: 14px;
+ min-width: 70px;
+ line-height: 30px;
+}
+.statusItemSplitbtn{
+ border-radius: 44px;
+ background: #15202B;
+ border: 1px solid #EF5364;
+ color:#EF5364;
+ height:30px;
+ padding: 0px 14px;
+ font-size: 14px;
+ margin-left: 16px;
+ cursor: pointer;
+ display: inline-flex;
+}
+.remoteWorkCloseTag{
+ position: absolute;
+ right: 0px;
+ top: 0px;
+ border-radius: 0px 0px 0px 8px;
+ background-color: #1C2A38;
+ color: #8899A6;
+ height: 30px;
+ width: 30px;
+ border: 1px solid #0000;
+ border-radius: 5px;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+ font-size: 14px;
+}
+.closeButtonTag > i{
+ font-size: 12px;
+}
+/****************** remoteMainWapper *****************/
+.remoteMainWapper{
+ background-color:#1C2A38;
+ display: flex;
+ flex-direction: column;
+ box-shadow: inset 0px 1px 4px rgb(0 0 0 / 8%);
+ overflow: auto;
+}
+.actionBandDom{
+ justify-content: space-between;
+ display: flex;
+ align-items: center;
+ padding: 28px 40px;
+ z-index: 3;
+}
+.deptWrapName{
+ display: flex;
+ align-items: center;
+ margin-left: 8px;
+ max-width: calc(100% - 385px);
+}
+.departmentWid{
+ min-width: 100px;
+ position: relative;
+}
+.departmentOptns{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+.fontBclrtheme{
+ font-weight: bold;
+ font-size: 18px;
+ color: #6CA534; 
+}
+.teamMemberCount{
+ font-size: 15px;
+ color:#778491;
+}
+.cliqTeamPointer > i{
+ margin-left: 8px;
+ margin-top: -4px;
+ font-weight: bold;
+ font-size: 20px;
+ color:#e1e3e4;
+}
+.teamLeadItem{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+.cliqFlexEllips{
+ align-items: start;
+ display: flex;
+}
+.mainDividr{
+ width: 1px;
+ height: 22px;
+ background-color: #3D4650;
+ margin: 0 30px;
+}
+.ellipsTeamname{
+ margin-top: 2px;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ font-size: 14px;
+ font-weight: bold;
+ word-wrap: normal;
+ color:#778491;
+}
+.teamHeadName{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ margin-left: 5px;
+ margin-top: 1px;
+}
+.tlName{
+ color:#778491;
+ border-bottom: 1px dashed #778491;
+ cursor: pointer;
+}
+.fshrinkCalling{
+ margin-left: 20px;
+ display: flex;
+}
+.meetIcon{
+ color:#fff;
+ padding: 0px 20px 0px 0px;
+}
+.meetNowCalling{
+ padding: 0 0px 0px 20px;
+ margin-right: 30px;
+ background: #6CA534;
+ color: #fff;
+ font-weight: normal;
+ border-width: 2px;
+ position: relative;
+ height: 40px;
+ min-width: 90px;
+ border-radius: 20px;
+ font-size: 15px;
+ cursor: pointer;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+}
+.callingLogo{
+ color: #fff;
+ padding-top: 2px;
+ font-size: 16px;
+ margin-right: 8px;
+}
+.meetNowOpts > i{
+ width: 40px;
+ height: 40px;
+ right: 0px;
+ border-radius: 0px 20px 20px 0px;
+ box-shadow: inset 1px 0px 0px rgb(0 0 0 / 20%);
+ font-size: 20px;
+ padding-right: 5px;
+ padding-top: 13px;
+ display: flex;
+ justify-content: center;
+}
+.scheduleOnlineMeeting{
+ position: relative;
+ height: 40px;
+ min-width: 90px;
+ padding: 0px 20px;
+ border-radius: 20px;
+ color: #fff;
+ border: none;
+ font-size: 15px;
+ cursor: pointer;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ background: #6CA534;
+ border-width: 2px;
+}
+.calendarLogo{
+ color: #fff;
+ padding-top: 2px;
+ font-size: 16px;
+ margin-right: 8px;
+}
+.cliqDepartementSearchBar{
+ padding-right: 40px;
+ padding-left: 40px;
+}
+.search2Active{
+ display: flex;
+ width: 100%;
+ height: 36px;
+ border-radius: 4px;
+ border: 1px solid #38485A;
+ background-color: #15202B;
+ cursor: pointer;
+ transition: all .3s ease-out;
+ overflow: hidden;
+ position: relative;
+ z-index: 1;
+}
+.zcfSearch2Icon > i{
+ font-size: 16px;
+ color: #8899A6;
+ width: 36px;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.zclSearchInput{
+ flex-grow: 1;
+ padding-right: 10px;
+ cursor: default;
+ overflow: hidden;
+ display: flex;
+ align-items: center;
+}
+.userSearchInput{
+ height: 100%;
+ font-size: 15px;
+ background-color: transparent;
+ color: #fff;
+ flex-grow: 1;
+ min-width: 0;
+}
+.userSearchInput::placeholder{
+ color: #778491;
+}
+/***************** cliqDepartementMember **************/
+.cliqDepartementMember{
+ padding-right: 40px;
+ padding-left: 40px;
+ display: flex;
+ justify-content: space-between;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ height: 100%;
+}
+.cliqAtWorkMembers{
+ flex-basis: 32.5%;
+ display: flex;
+ flex-direction: column;
+ max-width: 32.5%;
+}
+.sectionItemHead{
+ font-size: 17px;
+ font-weight: bold;
+ padding: 10px 0px 10px 8px;
+ color: #e1e3e4;
+}
+.atWorkList{
+ color: #778491;
+ margin-left: 5px;
+ font-size: 15px;
+}
+.cliqlistContainer{
+ background-color: #15202B;
+ border-radius: 10px;
+}
+.cliqlistContainer::-webkit-scrollbar{
+ width:6px;
+}
+.cliqlistContainer::-webkit-scrollbar-thumb{
+ border-radius: 20px;
+ background-color:#e1e3e4;
+}
+.cliqlistContainer:hover{
+ overflow-y:scroll;
+}
+.checkinStatusIn{
+ margin: 0px;
+ line-height: 35px;
+ color: #14b474;
+ height: 35px;
+ padding: 0px 16px;
+ font-size: 14px;
+ background-color:#131C26;
+ font-family: Lato, "Open Sans", sans-serif;
+ border-radius: 10px;
+}
+.zcpredot{
+ color: #999;
+}
+.zcpredot::before{
+ content: "";
+ height: 4px;
+ width: 4px;
+ background-color: #5c6977;
+ border-color: transparent;
+ display: inline-block;
+ vertical-align: middle;
+ margin: 0 5px;
+ border-radius: 100%;
+}
+.TeamlistMember01{
+ margin: 0px 10px;
+ padding: 12px 10px;
+ position: relative;
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ margin-top: 4px;
+ cursor: pointer;
+}
+.posrelcontctImg{
+ width: 36px;
+ height: 36px;
+ border-radius: 50%;
+ border: 1px solid #475461;
+ background-color: #15202B;
+}
+.posrelcontctImg > img{
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+}
+.posrelcontctImgName{
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ margin-left: 12px;
+}
+.ellipsName{
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ font-size: 15px;
+ color: #e1e3e4;
+ word-wrap: normal;
+}
+.ellipsWork{
+ font-size: 13px;
+ color:#778491;
+ margin-top: 3px;
+}
+.posrelCalling{
+ display: flex;
+ width: 250px;
+ justify-content: flex-end;
+}
+.personVideoCallIcon{
+ height: 30px;
+ width: 30px;
+ color: #56606A;
+ margin-left: 10px;
+ font-size: 18px;
+ background-color: #15202B;
+ position: relative;
+ background: #0000;
+ border: 1px solid #0000;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.wh100flexMCOntent{
+ height: 100%;
+ border-radius: 10px;
+ background-color: #15202B;
+ box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+}
+/* .wh100flexMCOntent::-webkit-scrollbar{
+ width:6px;
+}
+.wh100flexMCOntent::-webkit-scrollbar-thumb{
+ border-radius: 20px;
+ background-color:#e1e3e4;
+} */
+.RWmeetings{
+ height: 100%;
+ border-radius: 10px;
+ background-color: #15202B;
+ box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+}
+.wh100flexfdirC{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+.flexGovrflwAh100{
+ overflow-x: hidden;
+ overflow-y: auto;
+ height: 100%;
+}
+.wh100flexM{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.clrSfont15pLR20textC{
+ color: #afb3b7;
+ padding: 0 20px;
+ text-align: center;
+}
+.callhistry{
+ background: #4a936a1f;
+ color: #afb3b7;
+ min-height: 90px;
+ bottom: 0px;
+ z-index: 2;
+ font-size: 14px;
+ line-height: 21px;
+ padding: 10px 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ border-radius: 0px 0px 10px 10px;
+}
+.groupcallshistory{
+ color:#afb3b7;
+ margin-left: 5px;
+ line-height: 18px;
+ border-bottom: 1px dashed #afb3b7;
+ font-size: 14px;
+ font-weight: bold;
+}
+/************* chatwindows *************/
+.chatwindows{
+ padding: 2px;
+ height: 90%;
+ width: 100%;
+ z-index: 12;
+ position: relative;
+ display: none;
+}
+.chatwindowsviewport{
+ display: flex;
+ height: 100%;
+}
+.currentchat{
+ width: 1550px;
+ border: 1px solid #223140;
+ display: flex;
+ flex-direction: column;
+ background-color: #15202B;
+ float: left;
+ height: 106%;
+ box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
+ border-radius: 6px;
+ overflow: hidden;
+ margin-right: 2px;
+}
+.currentChatHeader{
+ width: 100%;
+ position: relative;
+ background-color: #1A2B3C;
+ float: left;
+ height: 55px;
+ flex-shrink: 0;
+ padding: 0;
+ z-index: 10;
+ box-shadow: 0px 1px 3px rgb(0 0 0 / 10%);
+ border-bottom: 1px solid #2B3D4F;
+}
+.hdrwrapflexC{
+ height: 55px;
+ padding: 2px 0px 0px 10px;
+ display: flex;
+ align-items: center;
+ opacity: 1;
+}
+.userImg{
+ position: relative;
+ display: inline-block;
+ vertical-align: middle;
+}
+.userImg > img{
+ width: 38px;
+ height: 38px;
+ margin: 0px;
+ box-shadow: 0px 0px 4px #3D4650;
+ border-radius: 50%;
+ object-fit: cover;
+}
+.hdrflexG{
+ width: calc(100% - 170px);
+ position: relative;
+ padding-top: 5px;
+ margin-right: 5px;
+}
+.zcmtit{
+ width: calc(100% - 10px);
+ float: left;
+ min-height: 14px;
+ margin-left: 10px;
+}
+.chat-head{
+ color: #6CA534;
+ position: relative;
+ height: 18px;
+ display: flex;
+}
+.userNameChatHead{
+ position: relative;
+ min-width: 30px;
+ max-width: 100%;
+ border-bottom: 1px solid transparent;
+ display: inline-block;
+ font-size: 15px;
+ letter-spacing: -.5px;
+ height: 19px;
+ line-height: 19px;
+}
+.hdrstatusellips{
+ width: 100%;
+ color: #778491;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ font-size: 12px;
+ line-height: 22px;
+ display: flex;
+ align-items: center;
+}
+.usrstatusAvaliable{
+ position: relative;
+ left: 0;
+ top: auto;
+ width: 8px;
+ height: 8px;
+ margin-right: 3px;
+ flex-shrink: 0;
+ border-radius: 50%;
+ background-color: #14b474;
+ border: 1px solid #15202B;
+ display: inline-block;
+}
+.vtmdIBellips{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ max-width: 90%;
+ word-wrap: normal;
+ font-family: Lato, "Open Sans", sans-serif;
+}
+.chtoptnsFshrink{
+ display: flex;
+ align-items: center;
+}
+.chataddoptions{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+}
+.zcmutebx{
+ font-size: 14px;
+ color: #8899A6;
+ border: 1px solid #475461;
+ border-radius: 5px;
+ width: 23px;
+ height: 24px;
+ font-weight: 200;
+ line-height: 24px;
+ margin-left: 5px;
+ text-align: center;
+ cursor: pointer;
+ transition: background-color .2s;
+}
+.zcmutebx:hover{
+ background-color: #2B3D4F;
+}
+.zclmenuwrap{
+ display: none;
+ opacity: 1;
+ transform: translateY(0px);
+ padding: 4px 0 0;
+ position: absolute;
+ box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+ border-radius: 4px;
+ background-color: #1A2B3C;
+ top: calc(100% + 0px);
+ min-width: 110px;
+ max-width: 300px;
+ z-index: 1;
+ margin-left: -71px;
+}
+.zcl-menu-item{
+ height: 36px;
+ display: flex;
+ align-items: center;
+ padding: 0px 8px;
+ border-radius: 4px;
+ color: aliceblue;
+ font-size: 14px;
+ margin: 0 4px;
+ background-color: inherit;
+}
+.zcl-menu-item:hover{
+ background-color: #263849;
+ cursor: pointer;
+}
+.zclmenuwrap01{
+ display: none;
+ opacity: 1;
+ transform: translateY(0px);
+ position: absolute;
+ padding: 5px;
+ box-shadow: 0px 2px 8px rgb(0 0 0 / 40%);
+ border-radius: 4px;
+ background-color: #1A2B3C;
+ right: 68px;
+ top: calc(100% + 1px);
+ min-width: 135px;
+}
+.itemCliqellips{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ height: 36px;
+ display: flex;
+ align-items: center;
+ padding: 0px 8px;
+ border-radius: 4px;
+ color: #263849;
+ font-size: 14px;
+}
+.itemCliqellips > i{
+ color: #727F86;
+ white-space: nowrap;
+ font-size: 15px;
+ margin-right: 10px;
+}
+.itemCliqellips > span{
+ color: aliceblue;
+ font-size: 14px;
+}
+/************** chatbody ************/
+.chatbody{
+ height: 100%;
+ width: 100%;
+ flex-direction: row;
+}
+.dsptbleheight100{
+ width: 100%;
+ background-color: #131e29;
+}
+.msgarea{
+ padding: 28px 30px 0 30px;
+ text-align: center;
+ width: 100%;
+ margin-bottom: -26px;
+}
+.zcdvdmsg{
+ background-color: transparent;
+ color: #778491;
+ text-align: center;
+ display: inline-block;
+ position: relative;
+ top: -13px;
+ padding: 0 20px;
+ font-size: 15px;
+ border-radius: 4px;
+}
+.zcdvdmsg::before{
+ content: '';
+ height: 1px;
+ border-bottom: 1px solid #f0f0f0;
+ width: 30px;
+ position: absolute;
+ left: -30px;
+ border-color: #313a46;
+ top: 12px;
+}
+.zcdvdmsg::after{
+ content: '';
+ height: 1px;
+ border-bottom: 1px solid #f0f0f0;
+ width: 30px;
+ position: absolute;
+ left: auto;
+ right: -30px;
+ border-color: #313a46;
+ top: 12px;
+}
+.senderellips{
+ overflow: hidden;
+ word-wrap: break-word;
+ color: #151515;
+ font-weight: bold;
+ line-height: 35px;
+ width: 100%;
+ font-size: 15px;
+ padding: 0.5% 39px 0 10px;
+ position: relative;
+ display: flex;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+.chtimgfloatl{
+ position: relative;
+}
+.chtimgfloatl > img{
+ width: 28px;
+ height: 28px;
+ border-radius: 100%;
+ margin-left: 9px;
+ object-fit: cover;
+}
+.zctxtseln{
+ color: #74a0c1;
+ margin-left: 10px;
+}
+.msgtxtInviewme:hover{
+ background-color: rgba(70, 98, 129, 0.07);
+}
+.msgtxtInviewme{
+ line-height: 24px;
+ word-spacing: 0;
+ vertical-align: bottom;
+ word-wrap: break-word;
+ position: relative;
+ min-height: 27px;
+ padding: 2px 0px 5px 0px;
+ display: flex;
+}
+.timestarholder{
+ position: absolute;
+ font-size: 13px;
+ line-height: normal;
+ text-align: center;
+ top: 2.5px;
+ width: 48px;
+ min-height: 26px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ z-index: 6;
+ visibility: hidden;
+}
+.timeStarIcon > i{
+ position: absolute;
+ color: #888;
+ font-size: 13px;
+ margin-top: -14px;
+}
+.timestarholder > a{
+ font-size: 9px;
+ width: 120px;
+ text-align: center;
+ margin-left: 10px;
+ color: #378fcc;
+ text-decoration: none;
+}
+.sendingstatus{
+ display: flex;
+ position: absolute;
+ right: 6px;
+ bottom: 8px;
+ justify-content: space-between;
+ width: 96%;
+}
+.msgstatus > i{
+ font-size: 12px;
+ color: rgba(24,144,234, 0.5);
+ width: 18px;
+ height: 18px;
+}
+.chatMsgSend{
+ color: #e1e3e4;
+ border-color: #223140;
+ text-align: left;
+ margin-right: 26px;
+ word-wrap: break-word;
+ white-space: pre-wrap;
+ padding-top: .1px;
+ font-family:Lato, "Open Sans", sans-serif;
+}
+/*************** chatareaposl **************/
+.chatareaposl{
+ bottom: 30px;
+ width: 100%;
+ position: relative;
+}
+.chatareamnzcaudiorecord{
+ position: relative;
+ display: flex;
+ width:100%;
+ justify-content: space-between;
+}
+.cstatusmsg{
+ margin: 1px 10px 3px 10px;
+ text-align: center;
+ color: #778491;
+ font-size: 13px;
+ word-wrap: break-word;
+ position: relative;
+ display: flex;
+ align-items: center;
+ padding: 5px 0px;
+ justify-content: center;
+}
+.commitactionbtn{
+ display: flex;
+ background-color: #1C2A38;
+ color: #afb3b7;
+}
+.commitactionbtn > i{
+ margin-right: 4px;
+ font-size: 10px;
+}
+.zcactnflexC{
+ display: flex;
+ align-items: center;
+ position: relative;
+ z-index: 13;
+ float: right;
+ color: #afb3b7;
+ line-height: 1;
+ padding: 4px;
+ cursor: pointer;
+}
+.zcactnflexC > span{
+ color: #afb3b7;
+ line-height: 1;
+ font-size: 13px;
+}
+.zcfdownArrowfont10 > i{
+ font-size: 10px;
+ margin-left: 6px;
+}
+.chatwindropdown{
+ background-color: #131C26;
+ border: 1px solid #38485A;
+ border-radius: 6px;
+ width: calc(100% - 20px);
+ height: 60%;
+ display: flex;
+ position: relative;
+ margin: 0 10px;
+}
+.zceditrsndfile{
+ background-color:#1C2A38;
+ color: #8899A6;
+ border-right: 1px solid #38485A;
+ width: 38px;
+ flex-shrink: 0;
+ z-index: 1112;
+ position: relative;
+ border-radius: 5px 0 0 5px;
+}
+.msiatchmnd{
+ width: 100%;
+ cursor: pointer;
+ height: 100%;
+ font-size: 1.7em;
+ display: table;
+ text-align: center;
+}
+.msiatchmnd > i{
+ position: absolute;
+ left: 10px;
+ top: 0;
+ bottom: 5px;
+ margin: auto;
+ color: #8899A6;
+ height: 23px;
+}
+.zchatxtareamn{
+ width: calc(100% - 38px);
+ position: relative;
+ flex-grow: 1;
+ color:#fff;
+}
+.chatBox{
+ padding: 10px;
+ color:#fff;
+}
+.txtformatflexC{
+ display: flex;
+ align-items: center;
+ position: absolute;
+ bottom: 10px;
+ right: 10px;
+}
+.microphoneIcon{
+ color: #8899A6;
+ cursor: pointer;
+ width: 30px;
+ height: 30px;
+ line-height: 30px;
+ border-radius: 50%;
+ text-align: center;
+}
+.microphoneIcon > i{
+ margin-right: 6px;
+ font-size: 20px;
+}
+.zcedtrinfoposldflxcent{
+ margin: 12px 10px 4px;
+ color: #778491;
+ position: relative;
+ height: 34px;
+ display: flex;
+}
+.composrhelpposrel{
+ width: 50%;
+ margin-left: 740px;
+ display: flex;
+ justify-content: space-between;
+}
+.font14ellips{
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ margin-bottom: 3px;
+ text-align: center;
+ font-size: 14px;
+ color: #778491;
+}
+.shibuAnnaChat{
+ width:100%;
+ height: 100vh;
+ border: 2px solid #fff;
+ background-color:#14b474;
+ /* position: absolute; */
+ z-index: 5;
+}
+.kaviyaChatWindow{
+ width: 100%;
+ height: 100%;
+ background-color: #14b474;
+}
