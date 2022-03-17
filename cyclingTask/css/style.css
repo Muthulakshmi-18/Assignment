@@ -6,27 +6,23 @@
 .container{
  width:100%;
  height:100vh;
- /* background-image:url("../img01.jpeg");
- background-repeat: no-repeat;
- background-size: 100% 100%; */
 }
 .contentDiv{
  display: grid;
  grid-template-rows: 550px 430px;
 }
-.backgroundDiv{
+.bgImgDiv{
+ display: flex;
+ width:100%;
+ height:550px;
  background-image:url("../css/img01.jpeg");
  background-position: 0 -200px;
+ position: relative;
+ animation: backgroundImgMove 8s ease-out infinite;
 }
 .roadLineDiv{
  width:100%;
  background-color: #525252;
- /* background-image:url("https://media.istockphoto.com/vectors/straight-empty-road-through-the-countryside-green-hills-blue-sky-and-vector-id1161948652?k=20&m=1161948652&s=170667a&w=0&h=_wB8ebL2O2fVkDJIaYIO24iQp2GZG6exigU8MCmTDoI=");
- position: relative;
- background-size: 100%;
- background-position: 0px -627px; */
- /* animation: divMove 5s infinite linear;
- animation-direction: reverse; */
 }
 .roadLineDiv::before{
  content: "";
@@ -169,5 +165,14 @@
  }
  100% {
   background-position: -120px;
+ }
+}
+
+@keyframes backgroundImgMove {
+ 0% {
+  background-position: 0 -200px;
+ }
+ 100% {
+  background-position: -100% -200px;
  }
 }
