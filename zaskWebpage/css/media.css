@@ -1,0 +1,102 @@
+/****************** @media query *******************/
+@media screen and (max-width:1357px){
+ .container{
+  min-width: 1300px;
+ }
+}
+@media screen and (max-width:900px){
+ .zaskProfilesIcon{
+  display: none;
+ }
+ .zaskGridWapperSecond{
+  display: none;
+ }
+ .zaskGridWapperFirst{
+  width: 1200px;
+  margin: 0px 40px;
+ }
+ .zaskMainHeader{
+  height: 80px;
+ }
+ .questionDiv{
+  padding: 10px 20px 10px 0;
+  font-size: 35px;
+ }
+ .filtersButton{
+  font-size: 30px;
+  height: 50px;
+  padding: 5px 20px 10px 15px;
+ }
+ .filterImg {
+  width: 30px;
+  height: 30px;
+ }
+ .selectDivsection{
+  padding: 15px 16px;
+ }
+ .newButton{
+  font-size: 30px;
+ }
+ .zaskquetionsTag {
+  height: 200px;
+  margin-top: 20px;
+ }
+ .AnswerSectionTag {
+  height: 70px;
+ }
+ .AnswerSectionTag > p {
+  font-size: 20px;
+ }
+ .ScoreSectionTag {
+  height: 65px;
+ }
+ .ScoreSectionTag >p{
+  font-size: 20px;
+ }
+ .ViewSectionTag {
+  height: 63px;
+ }
+ .ViewSectionTag > p{
+  font-size: 20px;
+ }
+ .contentQuizTag >p {
+  font-size: 32px;
+ }
+ .contentQuizTag > div {
+  font-size: 20px;
+ }
+ .commentBodDiv {
+  max-width: 500px;
+ }
+ .commentBodDiv > button {
+  margin-top: 0px;
+  font-size: 20px;
+  height: 50px;
+  width: 95px;
+ }
+ .commentPorfile > p {
+  font-size: 20px;
+ }
+ .commentPorfile > p > span {
+  font-size: 20px;
+ }
+ .loginImg01 {
+  width: 70px;
+  height: 70px;
+  margin: -20px 30px;
+ }
+ .zaskBackgroundImg >p {
+  font-size: 40px;
+ }
+ .zaskheaderUILogoBar {
+  height: 70px;
+ }
+ .zaskBackgroundImg {
+  height: 100px;
+ }
+ .rosponsLogo{
+  display: block;
+  margin-left: 1110px;
+  bottom: 10px;
+ }
+}
