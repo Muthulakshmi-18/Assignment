@@ -21,7 +21,6 @@
  transition: all .5s ease;
  text-align: center;
 }
-
 .sidebar header {
  font-size: 22px;
  color: white;
@@ -60,7 +59,6 @@ label #btn,label #cancel{
  border-radius: 3px;
  cursor: pointer;  
 }
-
 label #btn{
  position: absolute;
  right: 40px;
@@ -92,7 +90,7 @@ label #cancel{
 }
 
 /******** image ********/
-.content01{
+#content01{
  display: flex;
  width:100%;
  height: 900px;
@@ -101,22 +99,30 @@ label #cancel{
  /*box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%); */
 }
 .porfile01{
- width: 900px;
- height: 600px;
- margin-left: 100px;
- margin-top: 150px;
+ width: 200px;
+ height: 300px;
+ background-image: url("../image/pic02.jpeg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ margin-left: 122px;
+ margin-top: 300px;
+ float: left;
 }
 .aboutMe01{
  width: 500px;
  height: 400px;
  margin: auto;
 }
+.name{
+ width: 200px;
+ height: 141px;
+ margin: 155px 50px;
+}
 .name > h1{
- color:#fff;
+ color: #fff;
  font-size: 35px;
  font-family: "apercu",sans-serif;
- margin-top: 150px;
- margin-left:-980px;
+ float: left;
 }
 .about{
  font-size: 20px;
@@ -132,18 +138,17 @@ label #cancel{
  color: #ffffff;
  font-family: 'Source Sans Pro', sans-serif;
  line-height: 1.5;
- margin-left: 50px;
  width:500px;
- margin-top: 200px;
+ margin-top: -5px;
 }
 .paragraph02{
  font-size: 40px;
  color: #ffffff;
  font-family: 'Source Sans Pro', sans-serif;
  line-height: 1.5;
- margin-left: 50px;
 }
-/********** sectionFirst ***********/
+
+/*********** sectionFirst ***********/
 .about01{
  font-family: Zefani,serif;
  margin-top: 100px;
@@ -167,7 +172,7 @@ label #cancel{
 section{
  margin-top: 50px;
 }
-#content01{
+.content01{
  display: flex;
  width: 45%;
  height: 550px;
@@ -199,11 +204,11 @@ section{
  margin-top: 30px;
 }
 .about{
- font-size: 16px;
+ font-size: 18px;
  font-family: "apercu",sans-serif;
  margin-top: 20px;
- margin-left:-0px;
  width: 500px;
+ color: #fff;
  line-height: 170%;
 }
 .sectionFirst02{
@@ -214,6 +219,7 @@ section{
  position: absolute;
  transform: rotate(90deg);
 }
+
 /************ Assignment ************/
 a{
  text-decoration: none;
@@ -336,6 +342,13 @@ a{
  background-image: url("../image/calendar.jpg");
  background-size: 100% 100%;
 }
+.ProjectImg12{
+ width: 116px;
+ height: 120px;
+ transform: translate(100%, 8px);
+ background-image: url("../image/TikTokToe.png");
+ background-size: 100% 100%;
+}
 .checkThis{
  width: 100px;
  height: 40px;
@@ -346,6 +359,7 @@ a{
  background-color: #d688e0d1;
  box-shadow: 0px 0px 5px #d688e0d1;
 }
+
 /************ skills *************/
 #Myskills{
  width: 800px;
@@ -371,7 +385,7 @@ a{
  padding:2px;
  color: #ddd;
  position:relative;
- width: 85%; /* Full width */
+ width: 85%;
  background-color: #ddd;
  margin:10px;
  border-radius:2px;
@@ -455,10 +469,9 @@ a{
  font-weight:bold;
 }
 
-
 /********* Ipad *********/
 @media screen and (max-width: 768px){
- .content01 {
+ #content01 {
   width: 210%;
  }
  label #btn {
@@ -489,7 +502,7 @@ a{
 
 /********* phone ********/
 @media screen and (max-width:360px){
- .content01 {
+ #content01 {
   width: 384%;
  }
  label #btn {
