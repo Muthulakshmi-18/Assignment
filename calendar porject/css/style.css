@@ -47,10 +47,11 @@ button{
     font-style: oblique;
 }
 .Naatkal{
-    display:grid;
-    grid-template-columns: 1fr  1fr  1fr  1fr  1fr  1fr  1fr;
-    grid-gap: 5px; 
-    padding-top: 15px;   
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    grid-template-rows: repeat(6, 1fr);
+    padding-top: 15px; 
 }
 .box{    
     text-align: center;
